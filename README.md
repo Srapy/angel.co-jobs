@@ -15,7 +15,7 @@ Usage:
 4) run node angel.js.
 
 All the results/urls will be shown up in the comand propmt and will be automatically saved to .csv file.--
-before starting the script change the excel sheet name in the angel script.
+Before starting the script change the excel sheet name in the angel script.--
 eg: I have generated the result for the configration below in output.csv file.
 
 ```
