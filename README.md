@@ -1,20 +1,20 @@
 angel.co-jobs
 =============
 
-Scraping exercise using NodeJS
+**Scraping exercise using NodeJS**
 
-External Modules already added 1) Cheerio 2) Request
+External Modules already added 1) **Cheerio** 2) **Request**
 
 Requirments -  [Installing NodeJS](http://nodejs.org/download/) 
 
 
 
-Usage:
+**Usage:**
 
-1) move to the repository dowloaded eg cd /c/......    
+1) Move to the repository cloned eg cd /c/......    
 2) Configure config.js script manually as described in example section.    
 3) Save script.    
-4) run node angel.js.
+4) Run node angel.js.
 
 All the results/urls will be shown up in the comand propmt and will be automatically saved to .csv file.    
 Before starting the script change the excel sheet name in the angel script.    
@@ -35,11 +35,12 @@ keyword:'Enterprise Software'
 }
 
 ```
-Shortcoming: does not work for multiple filters for same key eg     
+**Shortcoming:**    
+does not work for multiple filters for same key eg     
 location:'United States,New York' OR    
 jobtypes:'full-time,contract' OR    
 role:'software Engineer,Mobile Developer' OR    
-keyword:'Enterprise Software,E-Commerce' //will not generate any results//.
+keyword:'Enterprise Software,E-Commerce' //**will not generate any results**//.
 
 
 
