@@ -71,6 +71,7 @@ if(startup_ids.length>0){
 			try{
 			startup_urls[startup_index] = $('div.startup-row.section div.pic a').attr('href');			
 			company_details(startup_urls[startup_index]);
+			console.log(startup_urls[startup_index]);
 			startup_index++;
 			}catch(err){console.log(err);}
 
