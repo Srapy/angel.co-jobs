@@ -5,6 +5,8 @@ Scraping exercise using NodeJS
 
 External Modules already added 1) Cheerio 2) Request
 
+Requirments -  [Installing NodeJS](http://nodejs.org/download/) 
+
 
 
 Usage:
