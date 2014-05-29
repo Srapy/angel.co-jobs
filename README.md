@@ -19,7 +19,7 @@ before starting the script change the excel sheet name in the angel script.
 
 eg: I have generated the result for the configration below in output.csv file.
 
-
+```
 exports.config = {
 location:'United States',
 jobtypes:'full-time', 
@@ -33,6 +33,7 @@ lastActive:'',
 keyword:'Enterprise Software'
 }
 
+```
 Shortcoming: does not work for multiple filters for same key eg 
 location:'United States,New York' OR
 jobtypes:'full-time,contract' OR
