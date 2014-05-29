@@ -9,11 +9,12 @@ Requirments -  [Installing NodeJS](http://nodejs.org/download/)
 
 
 
-**Usage:**
+####**Usage:**
 
-1. Move to the repository cloned eg cd /c/......    
-2. Configure config.js script manually as described in example section.    
-3. Save script.    
+    
+1. Configure config.js script manually as described in example section.    
+2. Save script.  
+3. Move to the repository cloned eg cd /c/...... 
 4. Run node angel.js.
 
 All the results/urls will be shown up in the comand propmt and will be automatically saved to .csv file.    
@@ -35,7 +36,7 @@ keyword:'Enterprise Software'
 }
 
 ```
-**Shortcoming:**    
+####**Shortcoming:**    
 does not work for multiple filters for same key eg     
 location:'United States,New York' OR    
 jobtypes:'full-time,contract' OR    
