@@ -66,6 +66,8 @@ if(startup_ids.length>0){
 
 		request('https://angel.co/job_listings/browse_startups_table?startup_ids%5B%5D='+startup_ids[i],function(err,res,body){
 
+			if(!err){
+				
 			var $ = cheerio.load(body);
 
 			try{
@@ -74,6 +76,8 @@ if(startup_ids.length>0){
 			console.log(startup_urls[startup_index]);
 			startup_index++;
 			}catch(err){console.log(err);}
+			
+			}
 
 		});
 	}
@@ -85,6 +89,8 @@ var company_details = function(url){
 
 	try{
 		request(url,function(err,res,body){
+			
+			if(!err){
 
 			var $ = cheerio.load(body);
 
@@ -142,6 +148,8 @@ var company_details = function(url){
 			console.log(out);
 			doc.write(out);
 			clear();
+			
+			}
 		});
 	}catch(er){}
 }
